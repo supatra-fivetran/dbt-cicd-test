@@ -9,6 +9,6 @@ with due_customers as
 
 
     from UNSTR_DATABASE.PUBLIC.PARSED_PDF_FIELDS
-        where balance_due > 700
+        where balance_due > 500
     )
 select * from due_customers
